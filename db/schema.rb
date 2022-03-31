@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_30_184304) do
+ActiveRecord::Schema.define(version: 2022_03_31_150456) do
 
   create_table "events", force: :cascade do |t|
     t.string "name"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2022_03_30_184304) do
     t.string "where_to_watch"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "logo"
   end
 
   create_table "liked_events", force: :cascade do |t|

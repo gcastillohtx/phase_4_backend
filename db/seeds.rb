@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-event1 = Event.create(name: "New York Knicks at the Brooklyn Nets", time: "8:30 pm EST", date: "04/28/22", location: "Barclays Center in Brooklyn, NY", sport: "NBA", where_to_watch: "YES Network" )
+event1 = Event.create(name: "New York Knicks at the Brooklyn Nets", time: "8:30 pm EST", date: "04/28/22", location: "Barclays Center in Brooklyn, NY", sport: "NBA", where_to_watch: "YES Network", logo: "https://content.sportslogos.net/logos/4/490/full/4227__major_league_baseball-primary-2019.png")
 event2 = Event.create(name: "Philadelphia Eagles at the New York Giants", time: "1:00 pm EST", date: "10/14/22", location: "MetLife Stadium in East Rutherford, NJ", sport: "NFL", where_to_watch: "FOX" )
 event3 = Event.create(name: "Las Vegas Aces at the New York Liberty", time: "9:00 pm EST", date: "12/03/22", location: "Barclays Center in Brooklyn, NY", sport: "WNBA", where_to_watch: "YES Network" )
 event4 = Event.create(name: "Boston Red Sox at the New York Yankees", time: "4:00 pm EST", date: "05/12/22", location: "Yankee Stadium in The Bronx, NY", sport: "MLB", where_to_watch: "YES Network" )
